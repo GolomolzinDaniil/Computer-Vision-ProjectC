@@ -1,0 +1,55 @@
+// int st_frame_i = -border; int fn_frame_i = border; // стартовый и конечный индекс по вертикали
+// int st_frame_j = -border; int fn_frame_j = border; // стартовый и конечный индекс по горизонтали
+
+// if (i < border) {
+//     st_frame_i = -i;
+// }
+// else if (i >= height - border) {
+//     fn_frame_i = height - i - 1;
+// }
+
+// if (j < border) {
+//     st_frame_j = -j;
+// }
+// else if (j >= width - border) {
+//     fn_frame_j = width - j - 1;
+// }
+
+
+
+
+    /*
+
+    RGBA
+    R - красный канал (0-255)
+    G - зеленый канал (0-255)
+    B - синий канал (0-255)
+    A - прозрачность (0-1)
+    #RGBA - где R,G,B,A - значения в 16СС записаннные подряд
+
+    */
+   
+    // for (int i = 0; i < 1; i++) {
+    //     for (int j = 0; j < 1; j++) {
+
+    //         int ind = (i * width + j) * channels;
+    //         // for (int ch = 0; ch < channels; ch++) {
+
+    //             printf("(%d %d %d %d)\n", image[ind], image[ind+1], image[ind+2]);
+    //         // }
+    //     }
+    // }
+
+
+
+//  w i d t h
+//  _ _ _ _ _
+//  |h
+//  |e
+//  |i
+//  |g
+//  |h
+//  |t
+
+
+
